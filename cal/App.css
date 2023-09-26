@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(37, 37, 37);
+  font-size: 20px;
+}
+
+.secondrow,.firstrow,.thirdrow,.fourthrow,.fifthrow {
+  display: flex;
+}
+
+.monitor {
+  width: 320px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.monitorText {
+  text-align: right;
+  margin-right: 5px;
+  font-size: 25px;
+  margin-top: 6px;
+}
+
+.btn, .btn0 {
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.btn0 {
+  width: 210px;
+}
+
+.btnNum,.btnCal,.btnC,.btnEq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 30px;
+  border-width: 0px;
+  background-color: rgb(249, 255, 193);
+}
+
+.pressed-button {
+  background-color: #cac9ff;
+  color: rgb(0, 0, 0);
+}
