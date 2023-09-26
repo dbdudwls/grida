@@ -150,6 +150,14 @@ function handleCalBtn2(btnValue) { // 계산(곱셈)버튼을 눌렀을 때 실�
 }
 
 function clickBtnEq() { // = 버튼을 눌렀을 때 실행되는 메서드
+    if (ismul) {
+        if (calmod === "/" || calmod === "*") {
+            num2 = 1
+        } else {
+            num2 = 0
+        }
+        ismul = false
+    }
     cal()
     iseq = true
     iscal = false

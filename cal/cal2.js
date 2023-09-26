@@ -81,6 +81,16 @@ function checkNumberminus() { // 일정 숫자보다 작아지면 에러표시 �
     }
 }
 
+function ismulcal() { // 사칙연산 덧셈연산과 곱셈연산분리
+    if (ismul) { // 연속해서 연산자를 누를때 덧셈과 곱셈을 구분
+        if (calmod === "/" || calmod === "*") {
+            num2 = 1
+        } else {
+            num2 = 0
+        }
+    }
+}
+
 function numberBtn(btnValue) { // 숫자버튼을 눌렀을 때 실행되는 메서드
     if (ismul) { // mul상태에서 num2=1이므로 0으로 초기화
         num2 = 0
@@ -108,13 +118,7 @@ function handleCalBtn(btnValue,numValue) { // 계산(덧셈)버튼을 눌렀을 
     if (!iscal) { // 계산모드와 아닐때를 구분
         iscal = true
     } else {
-        if (ismul) { // 연속해서 연산자를 누를때 덧셈과 곱셈을 구분
-            if (calmod === "/" || calmod === "*") {
-                num2 = 1
-            } else {
-                num2 = 0
-            }
-        }
+        ismulcal()
         cal()
         num2 = 0
     }
@@ -130,9 +134,11 @@ function handleCalBtn2(btnValue) { // 계산(곱셈)버튼을 눌렀을 때 실�
 }
 
 function clickBtnEq() { // = 버튼을 눌렀을 때 실행되는 메서드
+    ismulcal()
     cal()
     iseq = true
     iscal = false
+    ismul = false
     checkNumberLimits()
     checkNumberminus()
 }
