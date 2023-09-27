@@ -1,17 +1,17 @@
 # 나의 자기 소개
 
-안녕하세요! 저는 **Your Name**이라고 합니다. 
+안녕하세요! 저는 **유영진**이라고 합니다. 
 
 ## 소개
 
-- **이메일**: your.email@example.com
+- **이메일**: dbdudwls007@gmail.com
 - **웹사이트**: [My Portfolio](https://www.example.com)
 - **트위터**: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
 
 ## 경력
 
-- 2010년 - 2015년: 회사 A, 소프트웨어 엔지니어
-- 2015년 - 현재: 회사 B, 팀 리더
+- 2022년 - 2023년: 스마트인재개발원, 소프트웨어 IoT교육과정
+- 2023년 - 현재: 그리다에너지, 에너지시스템개발팀
 
 ## 기술 스택
 
@@ -20,20 +20,20 @@
 - 프로그래밍 언어: 
   - Python
   - JavaScript
-  - Ruby
+  - Java
 
 - 웹 개발:
   - Frontend: HTML, CSS, JavaScript, React
-  - Backend: Node.js, Express
+  - Backend: Node.js, Spring
 
 ## 프로젝트
 
-### 프로젝트 1: My Awesome Project
+### 프로젝트 1: 임시프로젝트1
 
 - **설명**: 이 프로젝트는 무엇인가 멋진 프로젝트에 대한 설명입니다.
 - **링크**: [프로젝트 페이지](https://github.com/yourusername/project1)
 
-### 프로젝트 2: Another Cool Project
+### 프로젝트 2: 임시프로젝트2
 
 - **설명**: 이 프로젝트는 또 다른 멋진 프로젝트에 대한 설명입니다.
 - **링크**: [프로젝트 페이지](https://github.com/yourusername/project2)
