@@ -15,16 +15,12 @@
 
 ## 기술 스택
 
-저는 다음과 같은 기술을 다룰 수 있습니다:
+| 언어     | 수준     | 경험     |
+|----------|----------|----------|
+| Python   | 초급     | 1년     |
+| JavaScript | 초급   | 1년     |
+| Java     | 초급     | 1년     |
 
-- 프로그래밍 언어: 
-  - Python
-  - JavaScript
-  - Java
-
-- 웹 개발:
-  - Frontend: HTML, CSS, JavaScript, React
-  - Backend: Node.js, Spring
 
 ## 프로젝트
 
