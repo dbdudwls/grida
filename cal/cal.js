@@ -106,7 +106,6 @@ function numberBtn(btnValue) { // 숫자버튼을 눌렀을 때 실행되는 메
 function handleCalBtn(btnValue) { // 계산(덧셈)버튼을 눌렀을 때 실행되는 메서드
     if (iseq) { // = 계산이 끝난 후 다시 연산자를 누르면 num2초기화
         num2 = 0
-        iseq = false
     }
     if (!iscal) { // 계산모드와 아닐때를 구분
         iscal = true
@@ -130,7 +129,6 @@ function handleCalBtn(btnValue) { // 계산(덧셈)버튼을 눌렀을 때 실�
 function handleCalBtn2(btnValue) { // 계산(곱셈)버튼을 눌렀을 때 실행되는 메서드 
     if (iseq) { // = 계산이 끝난 후 다시 연산자를 누르면 num2초기화
         num2 = 1 // 곱셈연산의 경우에는 num2를 0으로 초기화 시켜버리면 숫자를 제외한 연산기호나 =을 클릭했을때 결과가 0이 됨
-        iseq = false
     }
     if (!iscal) { // 계산모드와 아닐때를 구분
         iscal = true
