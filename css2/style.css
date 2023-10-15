@@ -1,0 +1,222 @@
+body{
+    background-color: rgb(215, 215, 215);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+body > div{
+    background-color: white;
+    height: 1300px;
+    width: 600px;
+    margin: 60px;
+    border-radius: 50px;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 135px 520px 480px 140px;
+    box-shadow: 0px 20px 20px rgb(190, 190, 190);
+}
+
+/* 왼쪽 페이지 */
+
+.headmenu{  
+    width: 525px;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-arrow-left{
+    font-size: 35px;
+    order: 1;
+}
+
+.fa-magnifying-glass{
+    font-size: 35px;
+    order: 2;
+}
+
+.mainshow{
+    display: grid;
+    grid-template-rows: 370px 150px
+}
+
+.imgtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgtitle img{  
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 60px;
+    box-shadow: 0px 20px 20px rgb(190, 190, 190);
+}
+
+.row1{
+    margin: 0px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.row2{
+    margin: 0px;
+    font-size: 26px;
+    color: rgb(141, 144, 148);
+}
+
+.state, .shuffle, .like{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.shuffle, .like{
+    border-radius: 35px;
+    width: 190px;
+    height: 70px;
+}
+
+.shuffle{
+    background-color: rgb(41, 47, 54);
+    margin-right: 10px;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.like{
+    background-color: rgb(202, 202, 202);
+    margin-left: 10px;   
+    color: rgb(141, 144, 148);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.musiclist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list{
+    border-radius: 15px;
+    width: 520px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list img{
+    border-radius: 20px;
+    margin: 20px 25px 20px 25px;
+    width: 80px;
+    height: 80px;
+}
+
+.list div{
+    width: 350px;
+}
+
+.list .icon{
+    display: flex;
+    width: 70px;
+}
+
+.playcontroler{
+    display: flex;
+    align-items: center;
+}
+
+.playcontroler > div{
+    border-radius: 60px;
+    background-color: black;
+    width: 560px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.now{
+    margin-left: 40px;
+    width: 310px;
+}
+
+.playcontroler div .icon{
+    width: 70px;
+}
+
+#playsong{
+    box-shadow: 0px 0px 8px  rgb(190, 190, 190);
+}
+
+@media (max-width:1400px) {
+    .row1{
+        font-size: 30px;
+    }
+}
+
+
+/* 오른쪽 페이지 */
+
+.secondpage{
+    grid-template-rows: 155px 720px 1fr 1fr;
+    box-shadow: 0px 20px 20px rgb(190, 190, 190);
+}
+
+.headmenu2{  
+    width: 525px;
+    height: 35px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headmenu2 .fa-arrow-left{
+    font-size: 35px;
+    order: 1;
+}
+
+.headmenu2 .fa-ellipsis-vertical{
+    font-size: 35px;
+    order: 2;
+}
+
+.playtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.playtitle img{
+    border-radius: 30px;
+    width: 440px;
+    height: 440px;
+}
+
+.row3{
+    text-align: center;
+    margin: 0px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.row4{
+    text-align: center; 
+    margin: 0px;
+    font-size: 26px;
+    color: rgb(141, 144, 148);
+}
