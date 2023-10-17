@@ -69,6 +69,7 @@ body > div{
 .row2{
     margin: 0px;
     font-size: 26px;
+    font-weight: bolder;
     color: rgb(141, 144, 148);
 }
 
@@ -88,12 +89,12 @@ body > div{
     background-color: rgb(41, 47, 54);
     margin-right: 10px;
     color: white;
-    font-size: 26px;
+    font-size: 28px;
     font-weight: bold;
 }
 
 .like{
-    background-color: rgb(202, 202, 202);
+    box-shadow: 0px 0px 10px  rgb(190, 190, 190);
     margin-left: 10px;   
     color: rgb(141, 144, 148);
     font-size: 24px;
@@ -114,6 +115,20 @@ body > div{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.list p{
+    margin: 0px;
+}
+
+.singerp{
+    color: #8d9490;
+}
+
+.titlep{
+    font-size: 28px;
 }
 
 .list img{
@@ -132,6 +147,10 @@ body > div{
     width: 70px;
 }
 
+.fa-ellipsis-vertical{
+    font-size: 35px;
+}
+
 .playcontroler{
     display: flex;
     align-items: center;
@@ -139,7 +158,7 @@ body > div{
 
 .playcontroler > div{
     border-radius: 60px;
-    background-color: black;
+    background-color: #292f36;
     width: 560px;
     height: 120px;
     display: flex;
@@ -149,22 +168,35 @@ body > div{
 
 .now{
     margin-left: 40px;
-    width: 310px;
+    width: 280px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.now p{
+    margin: 0px;
 }
 
 .playcontroler div .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 70px;
 }
 
-#playsong{
-    box-shadow: 0px 0px 8px  rgb(190, 190, 190);
+.control .fa-backward-step, .fa-forward-step{ 
+    font-size: 30px;
 }
 
-@media (max-width:1400px) {
-    .row1{
-        font-size: 30px;
-    }
+.fa-pause{
+    font-size: 50px;
 }
+
+#playsong{
+    box-shadow: 0px 0px 10px  rgb(190, 190, 190);
+}
+
+
 
 
 /* 오른쪽 페이지 */
@@ -205,6 +237,15 @@ body > div{
     border-radius: 30px;
     width: 440px;
     height: 440px;
+    box-shadow: 0px 20px 20px rgb(190, 190, 190);
+}
+
+.singer{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    flex-direction: column;
 }
 
 .row3{
@@ -218,5 +259,72 @@ body > div{
     text-align: center; 
     margin: 0px;
     font-size: 26px;
+    font-weight: bolder;
     color: rgb(141, 144, 148);
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+    align-items: end;
+}
+
+.time p{
+    margin: 0px;
+    font-weight: bolder;
+    color: rgb(141, 144, 148);
+}
+
+.pre{
+    font-size: 24px;
+    order: 1;
+}
+
+.post{
+    font-size: 24px;
+    order: 2;
+}
+
+.controlmenu{
+    display: flex;
+}
+
+.conicon{
+    flex: 1;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.fa-rotate-right, .fa-backward-step, .fa-forward-step, .fa-shuffle{
+    font-size: 35px;
+}
+
+.fa-circle-play{
+    border-radius: 40px;
+    font-size: 80px;
+    box-shadow: 0px 20px 20px rgb(190, 190, 190);
+}
+
+
+/*가로 너비 축소시 폰트 줄이기*/
+@media (max-width:1400px) {
+    .row1, .row3{
+        font-size: 30px;
+    }
+    .row2, .row4, .singerp, .like, .pre, .post{
+        font-size: 13px;
+    }
+    .shuffle, .titlep{
+        font-size: 14px;
+    }
 }
